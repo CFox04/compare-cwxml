@@ -1,0 +1,12 @@
+build
+blender-mathutils
+dist
+mathutils.egg-info
+__pycache__
+.vscode
+compare-cwxml-results
+adder_test.yft.xml
+adder.yft.xml
+compare-cwxml.code-workspace
+output.md
+.venv
