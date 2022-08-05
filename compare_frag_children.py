@@ -23,7 +23,7 @@ def compare_frag_children(xml_a: Fragment, xml_b: Fragment):
 
     for (name_a, child_a), (name_b, child_b) in zip(children_a, children_b):
         diff_comparison_attrs, sim_comparison_attrs = compare_object_attrs(
-            child_a, child_b, exclude_attrs="group_index")
+            child_a, child_b, exclude_attrs=["group_index", "drawable"])
 
         if not diff_comparison_attrs.is_blank():
             diff_comparison_attrs.title_a = name_a
