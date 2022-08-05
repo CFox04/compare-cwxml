@@ -6,7 +6,7 @@ class Config:
     file_path_a = "../yfts/adder_test.yft.xml"
     file_path_b = "../yfts/adder.yft.xml"
     output_file_name = "output.md"
-    output_file_directory = "./results"
+    output_file_directory = "./"
     show_similarities = False
     float_precision = 3
 
